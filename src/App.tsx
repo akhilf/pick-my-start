@@ -42,6 +42,14 @@ export default function App() {
       <header className="app__header">
         <h1>PickMyFit</h1>
         <p className="subtitle">Find it. Love it. Wear it.</p>
+        <p className="description" style={{ margin: '16px 0', opacity: 0.9, lineHeight: 1.5 }}>
+          Your AI-powered personal stylist! Answer 5 quick questions about your style preferences 
+          and discover clothes that match your personality from top fashion retailers.
+        </p>
+        <div className="coming-soon" style={{ margin: '12px 0', padding: '12px', background: 'var(--card)', borderRadius: '8px', fontSize: '14px' }}>
+          <strong>🚀 Coming Soon:</strong> Real-time AI recommendations • Multi-retailer integration • 
+          User accounts • Advanced filters • Social features • Mobile app
+        </div>
         <div style={{ marginTop: 12 }}>
           <button className="btn btn--small" onClick={toggleTheme}>
             {theme === 'light' ? 'Switch to Dark' : 'Switch to Light'}
