@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Questionnaire } from './modules/components/Questionnaire'
 import { Results } from './modules/components/Results'
 import { analyzeAndRecommend, type Preferences, type Product } from './modules/services/recommendation'

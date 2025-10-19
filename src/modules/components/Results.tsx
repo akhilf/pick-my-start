@@ -1,4 +1,3 @@
-import React from 'react'
 import type { Product } from '../services/recommendation'
 
 type Props = { products: Product[] }
