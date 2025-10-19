@@ -4,14 +4,16 @@
 
 An AI-powered personal stylist that curates fashion recommendations based on your style preferences. Built with React, TypeScript, and OpenAI integration.
 
-## Live Demo
+## 🌐 Live Demo
 
-[Coming Soon - Deploy to Vercel]
+**[https://pick-my-start.vercel.app](https://pick-my-start.vercel.app)** ✨
+
+*Currently running with rule-based recommendations. AI features available on request.*
 
 ## Features
 
 - **Smart Questionnaire**: 5-question style assessment (name, favorite color, daily wear, age, preferred combinations)
-- **AI-Powered Recommendations**: OpenAI integration for intelligent product ranking
+- **Smart Recommendations**: Rule-based scoring with optional AI enhancement (OpenAI integration ready)
 - **Multi-Retailer Support**: Ready for Myntra, Ajio, Amazon Fashion APIs
 - **Dark/Light Theme**: Professional UI with theme persistence
 - **Responsive Design**: Works seamlessly on desktop and mobile
@@ -20,7 +22,7 @@ An AI-powered personal stylist that curates fashion recommendations based on you
 ## Tech Stack
 
 - **Frontend**: React 19, TypeScript, Vite
-- **AI**: OpenAI GPT-4o-mini for style analysis
+- **AI**: OpenAI GPT-4o-mini for style analysis (optional enhancement)
 - **Serverless**: Vercel Edge Functions
 - **Styling**: CSS Variables with theme system
 - **State Management**: React Hooks
