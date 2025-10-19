@@ -7,7 +7,8 @@ export default function App() {
   const [theme, setTheme] = useState<'light' | 'dark'>(() => {
     const saved = localStorage.getItem('theme') as 'light' | 'dark' | null
     if (saved) return saved
-    return window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'
+    // Default to dark mode instead of following OS preference
+    return 'dark'
   })
   const [prefs, setPrefs] = useState<Preferences | null>(null)
   const [results, setResults] = useState<Product[] | null>(null)
