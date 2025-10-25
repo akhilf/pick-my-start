@@ -22,8 +22,8 @@ const MOCK_CATALOG: Product[] = [
   { id: 'm-tee-jeans-1', title: 'Roadster Tee + Slim Jeans', retailer: 'Myntra', category: 'Casual', color: 'blue', price: 1299, url: 'https://www.myntra.com', image: 'https://images.unsplash.com/photo-1516826957135-700dedea698c?q=80&w=800&auto=format&fit=crop' },
   { id: 'm-shirt-trouser-1', title: 'HRX Shirt & Trousers', retailer: 'Myntra', category: 'Formal', color: 'white', price: 2199, url: 'https://www.myntra.com', image: 'https://images.unsplash.com/photo-1520975587415-c1e9a61a3a40?q=80&w=800&auto=format&fit=crop' },
   
-  // Amazon Fashion affiliate links - Replace with actual product IDs from amazon.in
-  { id: 'amz-men-shirt-1', title: 'Men\'s Formal Shirt', retailer: 'Amazon Fashion', category: 'Formal', color: 'white', price: 899, url: 'https://amazon.in/s?k=men+formal+shirt&tag=pickmyfit-21', image: 'https://images.unsplash.com/photo-1520975587415-c1e9a61a3a40?q=80&w=800&auto=format&fit=crop' },
+  // Amazon Fashion affiliate links - Mix of search and direct product links
+  { id: 'amz-men-shirt-1', title: 'Men\'s Formal Shirt', retailer: 'Amazon Fashion', category: 'Formal', color: 'white', price: 899, url: 'https://amazon.in/dp/B07JBQZPX8?tag=pickmyfit-21', image: 'https://images.unsplash.com/photo-1520975587415-c1e9a61a3a40?q=80&w=800&auto=format&fit=crop' },
   { id: 'amz-women-dress-1', title: 'Women\'s Casual Dress', retailer: 'Amazon Fashion', category: 'Casual', color: 'black', price: 1299, url: 'https://amazon.in/s?k=women+casual+dress&tag=pickmyfit-21', image: 'https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?q=80&w=800&auto=format&fit=crop' },
   { id: 'amz-athleisure-1', title: 'Men\'s Track Suit', retailer: 'Amazon Fashion', category: 'Sports', color: 'black', price: 1599, url: 'https://amazon.in/s?k=men+track+suit&tag=pickmyfit-21', image: 'https://images.unsplash.com/photo-1519340241574-2cec6aef0c01?q=80&w=800&auto=format&fit=crop' },
   
