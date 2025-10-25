@@ -50,6 +50,7 @@ export default function App() {
           <strong>🚀 Coming Soon:</strong> Real-time AI recommendations • Multi-retailer integration • 
           User accounts • Advanced filters • Social features • Mobile app
         </div>
+        {/* Force deployment update */}
         <div style={{ marginTop: 12 }}>
           <button className="btn btn--small" onClick={toggleTheme}>
             {theme === 'light' ? 'Switch to Dark' : 'Switch to Light'}
