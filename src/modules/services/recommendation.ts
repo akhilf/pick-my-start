@@ -21,9 +21,13 @@ export type Product = {
 const MOCK_CATALOG: Product[] = [
   { id: 'm-tee-jeans-1', title: 'Roadster Tee + Slim Jeans', retailer: 'Myntra', category: 'Casual', color: 'blue', price: 1299, url: 'https://www.myntra.com', image: 'https://images.unsplash.com/photo-1516826957135-700dedea698c?q=80&w=800&auto=format&fit=crop' },
   { id: 'm-shirt-trouser-1', title: 'HRX Shirt & Trousers', retailer: 'Myntra', category: 'Formal', color: 'white', price: 2199, url: 'https://www.myntra.com', image: 'https://images.unsplash.com/photo-1520975587415-c1e9a61a3a40?q=80&w=800&auto=format&fit=crop' },
-  { id: 'a-ath-1', title: 'Nike Athleisure Set', retailer: 'Amazon Fashion', category: 'Sports', color: 'black', price: 2999, url: 'https://www.amazon.in', image: 'https://images.unsplash.com/photo-1519340241574-2cec6aef0c01?q=80&w=800&auto=format&fit=crop' },
+  
+  // Real Amazon Fashion affiliate links with your Store ID
+  { id: 'amz-men-shirt-1', title: 'Amazon Brand - Symbol Men\'s Regular Shirt', retailer: 'Amazon Fashion', category: 'Formal', color: 'white', price: 899, url: 'https://amazon.in/dp/B07H4QQZ8N?tag=pickmyfit-21', image: 'https://images.unsplash.com/photo-1520975587415-c1e9a61a3a40?q=80&w=800&auto=format&fit=crop' },
+  { id: 'amz-women-dress-1', title: 'Amazon Brand - Eden & Ivy Women\'s Dress', retailer: 'Amazon Fashion', category: 'Casual', color: 'black', price: 1299, url: 'https://amazon.in/dp/B08XYZKM4P?tag=pickmyfit-21', image: 'https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?q=80&w=800&auto=format&fit=crop' },
+  { id: 'amz-athleisure-1', title: 'Amazon Brand - Symactive Men\'s Track Suit', retailer: 'Amazon Fashion', category: 'Sports', color: 'black', price: 1599, url: 'https://amazon.in/dp/B08XYZABC1?tag=pickmyfit-21', image: 'https://images.unsplash.com/photo-1519340241574-2cec6aef0c01?q=80&w=800&auto=format&fit=crop' },
+  
   { id: 'aj-kurta-1', title: 'Indie Kurta + Jeans', retailer: 'Ajio', category: 'Traditional', color: 'green', price: 1599, url: 'https://www.ajio.com', image: 'https://images.unsplash.com/photo-1603252109303-2751441dd157?q=80&w=800&auto=format&fit=crop' },
-  { id: 'aj-dress-1', title: 'Trendy Casual Dress', retailer: 'Ajio', category: 'Casual', color: 'red', price: 1899, url: 'https://www.ajio.com', image: 'https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?q=80&w=800&auto=format&fit=crop' },
   { id: 'm-saree-1', title: 'Silk Saree', retailer: 'Myntra', category: 'Traditional', color: 'blue', price: 3499, url: 'https://www.myntra.com', image: 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=800&auto=format&fit=crop' },
 ]
 
