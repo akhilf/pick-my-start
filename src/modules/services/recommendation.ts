@@ -19,16 +19,22 @@ export type Product = {
 }
 
 const MOCK_CATALOG: Product[] = [
-  { id: 'amz-casual-combo-1', title: 'Stylish Tee + Slim Jeans Combo', retailer: 'Amazon Fashion', category: 'Casual', color: 'blue', price: 1299, url: 'https://amazon.in/s?k=mens+tshirt+jeans+combo&tag=pickmyfit-21&linkCode=ll2&ref_=as_li_ss_tl', image: 'https://images.unsplash.com/photo-1516826957135-700dedea698c?q=80&w=800&auto=format&fit=crop' },
-  { id: 'amz-formal-combo-1', title: 'Premium Shirt & Trousers Set', retailer: 'Amazon Fashion', category: 'Formal', color: 'white', price: 2199, url: 'https://amazon.in/s?k=mens+formal+shirt+trouser+set&tag=pickmyfit-21&linkCode=ll2&ref_=as_li_ss_tl', image: 'https://images.unsplash.com/photo-1520975587415-c1e9a61a3a40?q=80&w=800&auto=format&fit=crop' },
+  // Diwali Festival Collection - High Commission Category
+  { id: 'amz-diwali-kurta-1', title: 'Designer Festive Kurta Set (70% OFF)', retailer: 'Amazon Fashion', category: 'Traditional', color: 'gold', price: 1499, url: 'https://amazon.in/s?k=mens+designer+kurta+set+diwali+sale&rh=p_n_deal_type%3A28066534031&tag=pickmyfit-21&linkCode=ll2&ref_=as_li_ss_tl', image: 'https://images.unsplash.com/photo-1603252109303-2751441dd157?q=80&w=800&auto=format&fit=crop' },
+  { id: 'amz-ethnic-1', title: 'Premium Ethnic Wear Set (Diwali Special)', retailer: 'Amazon Fashion', category: 'Traditional', color: 'maroon', price: 2499, url: 'https://amazon.in/s?k=premium+ethnic+wear+men+diwali&rh=p_n_deal_type%3A28066534031&tag=pickmyfit-21&linkCode=ll2&ref_=as_li_ss_tl', image: 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=800&auto=format&fit=crop' },
   
-  // Amazon Fashion affiliate links - Mix of search and direct product links
-  { id: 'amz-men-shirt-1', title: 'Men\'s Formal Shirt', retailer: 'Amazon Fashion', category: 'Formal', color: 'white', price: 899, url: 'https://amazon.in/dp/B07JBQZPX8?tag=pickmyfit-21&linkCode=ll1&ref_=as_li_ss_tl', image: 'https://images.unsplash.com/photo-1520975587415-c1e9a61a3a40?q=80&w=800&auto=format&fit=crop' },
-  { id: 'amz-women-dress-1', title: 'Women\'s Casual Dress', retailer: 'Amazon Fashion', category: 'Casual', color: 'black', price: 1299, url: 'https://amazon.in/s?k=women+casual+dress&tag=pickmyfit-21&linkCode=ll2&ref_=as_li_ss_tl', image: 'https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?q=80&w=800&auto=format&fit=crop' },
-  { id: 'amz-athleisure-1', title: 'Men\'s Track Suit', retailer: 'Amazon Fashion', category: 'Sports', color: 'black', price: 1599, url: 'https://amazon.in/s?k=men+track+suit&tag=pickmyfit-21&linkCode=ll2&ref_=as_li_ss_tl', image: 'https://images.unsplash.com/photo-1519340241574-2cec6aef0c01?q=80&w=800&auto=format&fit=crop' },
+  // Wedding Season Collection - High ASP
+  { id: 'amz-wedding-suit-1', title: 'Designer Wedding Collection (Limited Stock)', retailer: 'Amazon Fashion', category: 'Formal', color: 'black', price: 3999, url: 'https://amazon.in/s?k=mens+wedding+suits+designer&rh=p_36%3A1318508031&tag=pickmyfit-21&linkCode=ll2&ref_=as_li_ss_tl', image: 'https://images.unsplash.com/photo-1520975587415-c1e9a61a3a40?q=80&w=800&auto=format&fit=crop' },
+  { id: 'amz-women-lehenga-1', title: 'Bridal Collection Lehenga (Trending)', retailer: 'Amazon Fashion', category: 'Traditional', color: 'red', price: 4999, url: 'https://amazon.in/s?k=wedding+lehenga+designer+bridal&rh=p_36%3A1318509031&tag=pickmyfit-21&linkCode=ll2&ref_=as_li_ss_tl', image: 'https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?q=80&w=800&auto=format&fit=crop' },
   
-  { id: 'aj-kurta-1', title: 'Indie Kurta + Jeans', retailer: 'Ajio', category: 'Traditional', color: 'green', price: 1599, url: 'https://www.ajio.com', image: 'https://images.unsplash.com/photo-1603252109303-2751441dd157?q=80&w=800&auto=format&fit=crop' },
-  { id: 'm-saree-1', title: 'Silk Saree', retailer: 'Myntra', category: 'Traditional', color: 'blue', price: 3499, url: 'https://www.myntra.com', image: 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=800&auto=format&fit=crop' },
+  // Winter Collection - Seasonal High Demand
+  { id: 'amz-winter-jacket-1', title: 'Premium Winter Jacket (New Launch)', retailer: 'Amazon Fashion', category: 'Casual', color: 'navy', price: 2999, url: 'https://amazon.in/s?k=premium+winter+jacket+men+branded&rh=p_n_date%3A1571559031&tag=pickmyfit-21&linkCode=ll2&ref_=as_li_ss_tl', image: 'https://images.unsplash.com/photo-1519340241574-2cec6aef0c01?q=80&w=800&auto=format&fit=crop' },
+  
+  // Deal of the Day - High Converting
+  { id: 'amz-casual-combo-2', title: 'Branded Fashion Set (Deal of the Day)', retailer: 'Amazon Fashion', category: 'Casual', color: 'blue', price: 1999, url: 'https://amazon.in/s?k=branded+mens+fashion+combo+set+deal&rh=p_n_deal_type%3A28066534031&tag=pickmyfit-21&linkCode=ll2&ref_=as_li_ss_tl', image: 'https://images.unsplash.com/photo-1516826957135-700dedea698c?q=80&w=800&auto=format&fit=crop' },
+  
+  // Amazon Brand - Higher Commission
+  { id: 'amz-symbol-1', title: 'Amazon Brand - Symbol Premium Collection', retailer: 'Amazon Fashion', category: 'Casual', color: 'multi', price: 1799, url: 'https://amazon.in/s?k=amazon+brand+symbol+men+clothing+new&rh=p_n_date%3A1571559031&tag=pickmyfit-21&linkCode=ll2&ref_=as_li_ss_tl', image: 'https://images.unsplash.com/photo-1520975548101-7edb8b343359?q=80&w=800&auto=format&fit=crop' },
 ]
 
 function scoreProduct(prefs: Preferences, p: Product): number {
